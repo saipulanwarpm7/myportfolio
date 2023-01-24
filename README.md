@@ -1,2 +1,2 @@
-# myportfolio
-my portfolio
+Saya Saipul Anwar, lulusan Teknik Informatika Universitas Pamulang tahun 2022. Memilikpengalaman sebagai Admin Marketing Communication di PT Talkindo Selaksa Anugrah Selama 2Tahun 9 Bulan. Saya memiliki minat berkarir sebagai Front End Developer / Web Developer
+Memahami HTML CSS Javascript, Familiar dengan WordPress, Memahami Object Oriented Programming (OOP), Memahami Bahasa PHP, Memahami Library React Js , Memahami Rest API, Memahami Tools GIT
