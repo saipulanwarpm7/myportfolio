@@ -1,49 +1,28 @@
 .jumbotron {
-
   padding-top: 6rem;
 
   background-color: #d4e5eb;
-
 }
-
-
 
 #projects {
-
   background-color: #d4e5eb;
-
 }
-
-
 
 section {
-
   padding-top: 5rem;
-
 }
-
-
 
 .gallery-img {
-
   width: 100%;
-
 }
-
-
 
 #gallery .row > * {
-
   padding: 0px;
-
 }
-
-
 
 /* My Keyboard sections */
 
 .keyboard-box {
-
   position: relative;
 
   background-color: #0c6efd;
@@ -53,13 +32,9 @@ section {
   height: 500px;
 
   transform-style: preserve-3d;
-
 }
 
-
-
 .keyboard-box::before {
-
   content: "MY";
 
   position: absolute;
@@ -81,21 +56,13 @@ section {
   opacity: 0;
 
   transition: 0.5s;
-
 }
-
-
 
 .keyboard-box:hover::before {
-
   opacity: 0.2;
-
 }
 
-
-
 .keyboard-box::after {
-
   content: "KEYBOARD";
 
   position: absolute;
@@ -117,21 +84,13 @@ section {
   opacity: 0;
 
   transition: 0.5s;
-
 }
-
-
 
 .keyboard-box:hover::after {
-
   opacity: 0.2;
-
 }
 
-
-
 .keyboard-name {
-
   top: 0;
 
   width: 100%;
@@ -149,21 +108,15 @@ section {
   transform: translate3d(0, 0, 50px);
 
   transition: 0.5s;
-
 }
 
 .keyboard-box:hover .keyboard-name {
-
   top: 20px;
 
   opacity: 1;
-
 }
 
-
-
 .keyboard-detail-button {
-
   position: absolute;
 
   bottom: 0;
@@ -175,23 +128,15 @@ section {
   opacity: 0;
 
   transition: 0.5s;
-
 }
 
-
-
 .keyboard-box:hover .keyboard-detail-button {
-
   opacity: 1;
 
   bottom: 20px;
-
 }
 
-
-
 .keyboard-img {
-
   position: absolute;
 
   top: 50%;
@@ -205,14 +150,69 @@ section {
   size: cover;
 
   transition: 0.5s;
-
 }
-
-
 
 .keyboard-box:hover .keyboard-img {
-
   transform: translate3d(-50%, -52%, 100px) scale(1.7) rotate(-5deg);
-
 }
 
+.custom-header {
+  background-color: #dee2e6 !important; /* Warna abu-abu */
+  color: #333 !important; /* Warna teks gelap */
+  font-weight: bold;
+}
+
+.experience-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.experience-title {
+  font-weight: bold;
+  color: #333;
+}
+.experience-period {
+  font-style: italic;
+  color: #6c757d;
+}
+.experience-list {
+  padding-left: 20px;
+}
+.education-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.education-title {
+  font-weight: bold;
+  color: #333;
+  font-size: 20px;
+}
+.education-period {
+  font-style: italic;
+  color: #6c757d;
+  font-size: 16px;
+}
+.intro-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+.intro-name {
+  font-weight: bold;
+  font-size: 22px;
+  color: #222;
+}
+.intro-role {
+  font-style: italic;
+  color: #6c757d;
+  font-size: 16px;
+}
